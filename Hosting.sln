@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFF55A61-E8D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokeredMessaging.Hosting", "src\BrokeredMessaging.Hosting\BrokeredMessaging.Hosting.csproj", "{F038A6F7-1A24-4BED-AA11-9A05A1A27337}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokeredMessaging.Hosting.Abstractions", "src\BrokeredMessaging.Hosting.Abstractions\BrokeredMessaging.Hosting.Abstractions.csproj", "{92BDE0A7-A196-4888-B929-2366D8DDB354}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{F038A6F7-1A24-4BED-AA11-9A05A1A27337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F038A6F7-1A24-4BED-AA11-9A05A1A27337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F038A6F7-1A24-4BED-AA11-9A05A1A27337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BDE0A7-A196-4888-B929-2366D8DDB354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BDE0A7-A196-4888-B929-2366D8DDB354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BDE0A7-A196-4888-B929-2366D8DDB354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BDE0A7-A196-4888-B929-2366D8DDB354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F038A6F7-1A24-4BED-AA11-9A05A1A27337} = {EFF55A61-E8D0-4CC3-B9FB-85B15EC73DAE}
+		{92BDE0A7-A196-4888-B929-2366D8DDB354} = {EFF55A61-E8D0-4CC3-B9FB-85B15EC73DAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C878D8C-75B2-45CD-BFEE-DC518D00B267}
